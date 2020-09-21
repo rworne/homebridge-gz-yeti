@@ -15,7 +15,7 @@ Configure it as follows:
             "name": "Yeti",
             "model": "Yeti 3000",
             "firmwareversion": "1.2.3",
-            "macaddress": "3C71BF7D7810",
+            "macaddress": "[your Yeti's MAC Address]",
             "url": "[your Yeti's IP Address]"
         }
         
@@ -23,7 +23,7 @@ Configure it as follows:
  * Only the url is critical, the rest of the fields are for information or future development.  These values can be found in the Yeti app.
  * name is the name of the device as it appears in Homekit
  * model appears under the detailed info page in the settings page for the device in Home.app.
- * macaddress appears under the detailed info page in the settings page for the device in Home.app.
+ * macaddress appears under the detailed info page in the settings page for the device in Home.app. Homebridge uses this for the serial number, as it is unique.
  * firmware version is currently not used, it's there in case any future firmware updates cause breakage.
  * Siri responds to "Turn AC Power on/off", "Turn 12 volt power on/off", "Turn USB power on/off"
  
