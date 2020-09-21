@@ -20,7 +20,7 @@ Configure it as follows:
         }
         
 ### Note:
- * Only the url is critical, the rest of the fields are for information or future development.  These values can be found in the Yeti app.
+ * The accessory, service, name, macaddress and url are required, the rest of the fields are for information or future development.  These values can be found in the Yeti app.
  * name is the name of the device as it appears in Homekit
  * model appears under the detailed info page in the settings page for the device in Home.app.
  * macaddress appears under the detailed info page in the settings page for the device in Home.app. Homebridge uses this for the serial number, as it is unique.
