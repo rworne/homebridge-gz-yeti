@@ -1,28 +1,26 @@
 {
   "name": "homebridge-gz-yeti",
-  "version": "1.0.0",
-  "author": "Robert Worne",
-  "description": "Homebridge plugin for Goal Zero Yeti power generators",
+  "version": "1.0.1",
+  "description": "Homebridge plugin for Foal Zero Yeti generators",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "license": "MIT",
-  "bugs": "rworne#hotmail.com",
-  "repository": "github:rworne/homebridge-gz-yeti",
-  "keywords": [
-    "homebridge-plugin",
-    "goalzero",
-    "yeti",
-    "homekit"
-  ],
-  "engines": {
-    "homebridge": ">=0.2.0",
-    "node": ">=0.12.0"
-  },
   "dependencies": {
     "node-fetch": "^2.6.0",
     "request": "^2.65.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "github:rworne/homebridge-gz-yeti",
+  "keywords": [
+    "homebridge-plugin",
+    "goalzero",
+    "yeti"
+  ],
+  "author": "Robert Worne <rworne@hotmail.com>",
+  "license": "MIT",
+  "engines": {
+    "homebridge": ">=0.2.0",
+    "node": ">=0.12.0"
+  }
 }
