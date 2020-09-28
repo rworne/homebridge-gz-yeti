@@ -5,6 +5,10 @@
 My initial take on a Homebridge plugin dor the Goal Zero Yeti power stations (Lithium Ion powered generator).
 This provides remote power capability for 12VDC, AC power and USB power, shows the charge state of the battery, and the temperature of the Yeti itself.
 
+## Big Note:
+
+The Yeti appears to be capable of connecting to only one device at a time.  Therefore, when using the Homebridge plugin, the Yeti will communicate via Homebridge as if it were in local (direct connect) mode, but it will be using the assigned IP address and be a part of the WiFi network.  Be aware that the Yeti App will most likely no longer function unless you re-pair the devices.  This will be investigated further later on.
+
 ## Usage:
 
 Configure it as follows:
